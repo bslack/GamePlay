@@ -51,13 +51,13 @@
 		42C8EE3114724CD700E43619 /* Vector4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 42C8EE0414724CD700E43619 /* Vector4.cpp */; };
 		42C8EE3214724CD700E43619 /* Vertex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 42C8EE0614724CD700E43619 /* Vertex.cpp */; };
 		42C8EE3314724CD700E43619 /* VertexElement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 42C8EE0814724CD700E43619 /* VertexElement.cpp */; };
-		42C8EE351472B60100E43619 /* libfreetype.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42C8EE341472B60100E43619 /* libfreetype.a */; };
 		42C8EE371472D7E700E43619 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 42C8EE361472D7E700E43619 /* libxml2.dylib */; };
 		42C8EE391472DAA300E43619 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 42C8EE381472DAA300E43619 /* libz.dylib */; };
 		42C8EE3B1472DAAE00E43619 /* libbz2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 42C8EE3A1472DAAE00E43619 /* libbz2.dylib */; };
 		42D277591472EFA700D867A4 /* libpcre.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42D277571472EFA700D867A4 /* libpcre.a */; };
 		42D2775A1472EFA700D867A4 /* libpcrecpp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42D277581472EFA700D867A4 /* libpcrecpp.a */; };
 		42DDE88515191CDA00D9B550 /* libpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42DDE88415191CDA00D9B550 /* libpng.a */; };
+		5BCD05CE152CF02F0071FAB5 /* libfreetype.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BCD05CD152CF02F0071FAB5 /* libfreetype.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -163,13 +163,13 @@
 		42C8EE0714724CD700E43619 /* Vertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vertex.h; path = src/Vertex.h; sourceTree = SOURCE_ROOT; };
 		42C8EE0814724CD700E43619 /* VertexElement.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VertexElement.cpp; path = src/VertexElement.cpp; sourceTree = SOURCE_ROOT; };
 		42C8EE0914724CD700E43619 /* VertexElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VertexElement.h; path = src/VertexElement.h; sourceTree = SOURCE_ROOT; };
-		42C8EE341472B60100E43619 /* libfreetype.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfreetype.a; path = "../external-deps/freetype2/lib/macos/libfreetype.a"; sourceTree = "<group>"; };
 		42C8EE361472D7E700E43619 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		42C8EE381472DAA300E43619 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		42C8EE3A1472DAAE00E43619 /* libbz2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libbz2.dylib; path = usr/lib/libbz2.dylib; sourceTree = SDKROOT; };
 		42D277571472EFA700D867A4 /* libpcre.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpcre.a; path = "../external-deps/pcre/lib/macos/libpcre.a"; sourceTree = "<group>"; };
 		42D277581472EFA700D867A4 /* libpcrecpp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpcrecpp.a; path = "../external-deps/pcre/lib/macos/libpcrecpp.a"; sourceTree = "<group>"; };
 		42DDE88415191CDA00D9B550 /* libpng.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpng.a; path = "../external-deps/libpng/lib/macos/libpng.a"; sourceTree = "<group>"; };
+		5BCD05CD152CF02F0071FAB5 /* libfreetype.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfreetype.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,11 +180,11 @@
 				42DDE88515191CDA00D9B550 /* libpng.a in Frameworks */,
 				42D277591472EFA700D867A4 /* libpcre.a in Frameworks */,
 				42D2775A1472EFA700D867A4 /* libpcrecpp.a in Frameworks */,
-				42C8EE351472B60100E43619 /* libfreetype.a in Frameworks */,
 				42475D7C14720ECE00610A6A /* libdom.a in Frameworks */,
 				42C8EE3B1472DAAE00E43619 /* libbz2.dylib in Frameworks */,
 				42C8EE391472DAA300E43619 /* libz.dylib in Frameworks */,
 				42C8EE371472D7E700E43619 /* libxml2.dylib in Frameworks */,
+				5BCD05CE152CF02F0071FAB5 /* libfreetype.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,12 +306,12 @@
 		427D4F44147DC9080076760E /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				5BCD05CD152CF02F0071FAB5 /* libfreetype.a */,
 				42D277571472EFA700D867A4 /* libpcre.a */,
 				42D277581472EFA700D867A4 /* libpcrecpp.a */,
 				42C8EE3A1472DAAE00E43619 /* libbz2.dylib */,
 				42C8EE381472DAA300E43619 /* libz.dylib */,
 				42C8EE361472D7E700E43619 /* libxml2.dylib */,
-				42C8EE341472B60100E43619 /* libfreetype.a */,
 				42475D7B14720ECE00610A6A /* libdom.a */,
 				42DDE88415191CDA00D9B550 /* libpng.a */,
 			);
@@ -503,7 +503,6 @@
 		42475CF1147208A100610A6A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
 				CLANG_CXX_LIBRARY = "compiler-default";
 				GCC_C_LANGUAGE_STANDARD = "compiler-default";
@@ -523,8 +522,8 @@
 					"\"$(SRCROOT)/../external-deps/freetype2/lib/macos\"",
 					"\"$(SRCROOT)/../external-deps/collada-dom/lib/macos\"",
 					"\"$(SRCROOT)/../external-deps/pcre/lib/macos\"",
-					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/gameplay-exiunaubxxjndaapmcqkaoeboiob/Build/Products/Debug\"",
 					"\"$(SRCROOT)/../external-deps/libpng/lib/macos\"",
+					"\"$(SRCROOT)\"",
 				);
 				MACH_O_TYPE = mh_execute;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -535,7 +534,6 @@
 		42475CF2147208A100610A6A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
 				CLANG_CXX_LIBRARY = "compiler-default";
 				GCC_C_LANGUAGE_STANDARD = "compiler-default";
@@ -555,8 +553,8 @@
 					"\"$(SRCROOT)/../external-deps/freetype2/lib/macos\"",
 					"\"$(SRCROOT)/../external-deps/collada-dom/lib/macos\"",
 					"\"$(SRCROOT)/../external-deps/pcre/lib/macos\"",
-					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/gameplay-exiunaubxxjndaapmcqkaoeboiob/Build/Products/Debug\"",
 					"\"$(SRCROOT)/../external-deps/libpng/lib/macos\"",
+					"\"$(SRCROOT)\"",
 				);
 				MACH_O_TYPE = mh_execute;
 				PRODUCT_NAME = "$(TARGET_NAME)";
